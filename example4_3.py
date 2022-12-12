@@ -11,5 +11,5 @@ print("Enter three values for looking the biggest number in three entered values
 x = int(input("Enter value 1:"))
 y = int(input("Enter value 2:"))
 z = int(input("Enter value 3:"))
-max = maximum(x,y,z)
-print("The biggest number is:",max)
+biggest = maximum(x,y,z)
+print("The biggest number is:",biggest)
