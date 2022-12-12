@@ -1,3 +1,4 @@
+# Need install RabbitMQ before using this code
 import pika, sys, os
 def main():
     credentials = pika.PlainCredentials('user1', 'user')

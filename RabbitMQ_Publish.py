@@ -1,3 +1,4 @@
+# Need install RabbitMQ before using this code
 import pika
 credentials = pika.PlainCredentials('user1', 'user')
 server = "atlaptop"
