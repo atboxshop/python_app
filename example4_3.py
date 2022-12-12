@@ -1,5 +1,5 @@
+"""Return the maximum of tree values"""
 def maximum(value1, value2, value3):
-    #Return the maximum of tree values
     max_value = value1
     if value2 > max_value:
         max_value = value2
