@@ -5,7 +5,7 @@ server = "atlaptop"
 connection = pika.BlockingConnection(pika.ConnectionParameters(host = server,virtual_host = 'testvhost',credentials = credentials))
 channel = connection.channel()
 #channel.queue_declare(queue='Hello Wolrd')
-for i in range(5000):
+for i in range(1000):
     msg = "Hello World! Message " + str(i)
     channel.basic_publish(exchange = '',
                       routing_key = 'Hello World',
