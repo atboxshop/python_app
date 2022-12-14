@@ -15,3 +15,13 @@ def average(*args):
 
 print(average(5, 10, 15, 20))
 
+def calculate_product(*args):
+    product = 1
+    for value in args:
+        product *= value
+        print(product)
+    return product
+
+print(calculate_product(*range(1, 6, 2)))
+#first it run from range 1 to 6 , increasemental 2, result is calcualte_product(3, 5)
+
