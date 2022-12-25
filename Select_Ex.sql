@@ -1,0 +1,1 @@
+select fname, lname from employee where pub_id = '0877' and job_id = 13
