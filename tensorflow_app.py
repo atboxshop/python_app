@@ -1,4 +1,4 @@
-"""Docstring"""
+"""Tensorflow Hello World"""
 import tensorflow as tf
 
-print(tf.__version__, end="")
+print(tf.__version__)
